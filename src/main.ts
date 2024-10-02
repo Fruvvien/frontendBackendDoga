@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
   
  
 
-  url.addEventListener("input", (e)=>{
+  url.addEventListener("change", (e)=>{
     cicaKep.src =  e.currentTarget!.value;
     cicaKep.style.border = "solid"; 
   })
