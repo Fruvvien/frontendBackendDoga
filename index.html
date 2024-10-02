@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <form >
+      <div  class="row justify-content-center">
+        <div  class="col-md-2 col-sm-12">
+          <label class="form-label " for="url">Kép URL:</label>
+          <input id="url" name="url" type="text" >
+        </div>
+       
+
+
+        <div  class="col-md-3 col-sm-12">
+          <label for="szelesseg" class="form-label">A kép szélessége:</label>
+          <input type="text" name="szelesseg" id="szelesseg" >
+        </div>
+        
+
+
+        <div  class="col-md-3 col-sm-12">
+          <label for="vastagsag" class="form-label">A képkeret vastagsága:</label>
+          <input type="number" name="vastagsag" id="vastagsag" >
+        </div>
+        
+
+        <div  class="col-md-3 col-sm-12">
+          <label for="szin" class="form-label">A képkeret színe</label>
+          <input type="text" name="szin" id="szin" >
+        </div>
+
+       
+        
+      </div>
+
+    </form>
+    <div style="padding-top: 100px;" class="d-flex justify-content-center">
+      <img id="cicaKep" src="" alt="cicaKep" >
+      <!--/img/O89vfci.jpeg-->
+    </div>
+    
+    <footer class="d-flex justify-content-end">
+      <span style="padding-right: 15px;">
+        Oláh Gábor
+        2/14S
+      </span>
+     
+
+      <button id="darkMode" class="btn btn-primary ">sötéét</button>
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
